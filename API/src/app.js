@@ -4,6 +4,7 @@ const db = require("./database/db")
 const controllers = require("./controllers")
 const productRoutes = require('./Routes/productRoutes')
 const empresaRoutes = require('./Routes/empresaRoute')
+require("dotenv/config")
 // const authRoutes = require('./Routes/authRoutes')
 
 
@@ -24,7 +25,7 @@ app.post("/register", controllers.register);
 app.post("/login", controllers.login);
 app.delete("/deleteUserbyId", controllers.deleteUserbyId);
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.listen(port, ()=> {console.log("server lintening on port", port);
 db();

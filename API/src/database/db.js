@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 // MongoDb Connection
 
 const MONGODB_URL = "mongodb://localhost/autenticacionLocalLT"
