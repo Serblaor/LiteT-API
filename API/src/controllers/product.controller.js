@@ -8,7 +8,7 @@ const createProduct = async (req, res) => {
       name,
       company,
       category,
-      price,
+      // price,
       imgURL,
     });
 

@@ -1,3 +1,3 @@
-// module.exports = {
-//     SECRET:  'Products-api'
-// }
+module.exports = {
+    SECRET:  'Products-api'
+}
