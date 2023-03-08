@@ -4,14 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "dev": "",
     "build": "npm i",
-    "start": "nodemon src/app.js"
-=======
     "dev": "nodemon src/app.js",
-    "build" : "npm i"
->>>>>>> 76b22bbb42af6217b8a301be33c86cf6d80b002f
   },
   "keywords": [],
   "author": "",
